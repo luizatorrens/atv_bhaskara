@@ -1,0 +1,63 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16%;
+}
+.botoes{
+    text-align: center;
+    padding: 10px;
+}
+.calculadora{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 800px;
+    padding: 30px;
+    background-color: rgb(162, 211, 252);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.valores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valores label {
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.resultado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.btn {
+    height: 40px;
+    width: 120px;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: antiquewhite;
+    background-color: rgba(121, 48, 48, 0.705);
+    border-radius: 10px;
+    border: 0;
+}
+
+.btn-danger {
+    background-color: rgba(82, 46, 243, 0.815);
+}
+
+input {
+    height: 35px;
+    border: 0;
+    border-radius: 8px;
+    padding-left: 10px;
+}
